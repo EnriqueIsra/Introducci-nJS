@@ -11,6 +11,7 @@ const producto = {
 }
 
 console.log(producto)
+
 console.log(producto.nombreProducto)
 console.log(producto.precio)
 console.log(producto.disponible)
