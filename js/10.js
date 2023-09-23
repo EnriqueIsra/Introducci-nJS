@@ -10,8 +10,14 @@ const producto = {
     disponible: true
 }
 
-console.log(producto)
+/* console.log(producto)
 
 console.log(producto.nombreProducto)
 console.log(producto.precio)
-console.log(producto.disponible)
+console.log(producto.disponible) */
+
+//agregar propiedades
+producto.imagen = 'imagen.jpg'
+ //eliminar propiedades
+ delete producto.disponible
+ console.log(producto)
